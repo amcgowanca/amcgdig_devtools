@@ -1,0 +1,6 @@
+name: 'Development tools'
+description: 'A collection of utilities to assist with development activities for Drupal 8.'
+package: 'Aaron McGowan'
+type: module
+core: 8.x
+version: 1.0

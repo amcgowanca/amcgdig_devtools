@@ -1,0 +1,18 @@
+<?php
+/**
+ * @file
+ *
+ */
+
+/**
+ * Returns the number of seconds since the given the time.
+ *
+ * @param float $start_time
+ *   The start time as a float (microtime).
+ *
+ * @return float
+ *   The number of seconds, rounded to two decimal points.
+ */
+function _amcgdig_devtools_elapsed_time_since($start_time) {
+  return round(microtime(TRUE) - $start_time, 2);
+}
